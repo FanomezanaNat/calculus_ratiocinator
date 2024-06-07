@@ -41,7 +41,7 @@ public class CompostionAffirmation {
     }
 
     public String estVraiPlusieurAffirmation(String valeur, String valeur1, Conjonction conjonction) {
-        if ((valeur.equals("vrai"))) {
+        if ((valeur.equals("vrai") && valeur1.equals("faux"))) {
             return "faux";
         }
         return "vrai";
